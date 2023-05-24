@@ -1,0 +1,58 @@
+Start generating test data 1000 for benchmark
+
+Sun Feb 12 11:34:52 MST 2023
+Sun Feb 12 11:40:40 MST 2023
+Finish generating test data 1000 for benchmark
+
+Start generating test data 100 for noise experiment
+
+Sun Feb 12 11:40:40 MST 2023
+Sun Feb 12 11:43:36 MST 2023
+Finish generating test data 100 for noise experiment
+
+Start generating training data theta 1 for benchmark
+Sun Feb 12 11:43:36 MST 2023
+Sun Feb 12 12:10:56 MST 2023
+Finish generating 5000 training data theta 1
+
+
+Start generating training data theta 10000 1000 and 100 for noise experiment
+Sun Feb 12 12:10:56 MST 2023
+Start generating data/train_5000_theta_10000
+Sun Feb 12 12:10:56 MST 2023
+Sun Feb 12 12:38:59 MST 2023
+Start generating data/train_5000_theta_1000
+Sun Feb 12 12:38:59 MST 2023
+Sun Feb 12 13:06:31 MST 2023
+Start generating data/train_5000_theta_100
+Sun Feb 12 13:06:32 MST 2023
+Sun Feb 12 13:34:05 MST 2023
+Sun Feb 12 13:34:05 MST 2023
+Finish generating 5000 training data theta 10000 1000 and 100
+
+Start tuning with training data theta 1 for benchmarking
+Sun Feb 12 13:34:05 MST 2023
+Sun Feb 12 13:43:32 MST 2023
+Finish tuning for benchmarking
+
+Start training for benchmarking
+Sun Feb 12 13:43:32 MST 2023
+Sun Feb 12 13:43:37 MST 2023
+Finish training for benchmarking
+
+Start tuning and training using data/train_5000_theta_10000
+Sun Feb 12 13:43:37 MST 2023
+Sun Feb 12 13:53:53 MST 2023
+Start tuning and training using data/train_5000_theta_1000
+Sun Feb 12 13:53:53 MST 2023
+Sun Feb 12 14:04:28 MST 2023
+Start tuning and training using data/train_5000_theta_100
+Sun Feb 12 14:04:28 MST 2023
+Sun Feb 12 14:14:54 MST 2023
+Finish tuning and training
+
+Plotting for models trained on theta 1 and test on theta 1000
+
+Finish run
+Sun Feb 12 14:15:00 MST 2023
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=6496868 by 8am on 2023/02/13.

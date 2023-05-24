@@ -1,0 +1,5 @@
+Quality check for data/train_5000:
+Number of FS with at least one negative entry: 0
+Number of FS with at least one NaN entry: 0
+Number of FS with at least one pos inf entry: 0
+

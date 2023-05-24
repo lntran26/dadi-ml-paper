@@ -1,0 +1,36 @@
+Quality check for data/test_1000_theta_1000:
+Number of FS with at least one negative entry: 138
+Number of FS with at least one NaN entry: 0
+Number of FS with at least one pos inf entry: 0
+
+Note: Negative entries in FS reported above were automatically converted to its absolute value as part of the pipeline processing.
+Any FS with negative entries sum to more than 0.1% of the sum of all entries in FS before conversion will be reported below.
+To reduce the number of FS with negative entries in initial simulations try increasing the grids size.
+
+------------------------------------------------------------
+
+Details of FS with negative entries exceeding threshold before absolute value conversion:
+
+Total number of FS: 3
+
+FS 335:
+Params: nu1=65.592 nu2=2.416 T=1.986 m=9.083 misid=0.178 
+Negative entry counts: 94
+Most negative entry value: -0.0052
+Sum of all negative entries: -0.0602
+Sum of FS before normalization: 20.2191
+
+FS 374:
+Params: nu1=11.073 nu2=55.118 T=1.906 m=9.864 misid=0.035 
+Negative entry counts: 166
+Most negative entry value: -0.09
+Sum of all negative entries: -1.8624
+Sum of FS before normalization: 33.156
+
+FS 564:
+Params: nu1=79.981 nu2=9.163 T=1.631 m=9.854 misid=0.062 
+Negative entry counts: 129
+Most negative entry value: -0.0217
+Sum of all negative entries: -0.4233
+Sum of FS before normalization: 28.6475
+

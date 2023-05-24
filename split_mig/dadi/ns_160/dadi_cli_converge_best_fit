@@ -1,0 +1,23 @@
+#!/bin/bash
+
+source ~/.bashrc && conda activate donni
+
+IN_DIR="input_fs"
+OUT_DIR="inference"
+
+model="split_mig"
+ubounds="1.1e2 1.1e2 3 12 0.5" 
+lbounds="1e-3 1e-3 1e-3 1e-3 0"
+grids="178 196 214"
+
+i=$1 # for job array, the fs that we are on
+printf -v j "%03d" $i # change $i to $j for index 3
+
+date
+echo "running fs ${i}"
+dadi-cli InferDM --fs ${IN_DIR}/fs_${j} --model ${model} \
+        --grids ${grids} --lbounds ${lbounds} --ubounds ${ubounds} \
+        --output ${OUT_DIR}/fs_${j} --optimizations 100000 --cpus 10 \
+        --check-convergence --delta-ll .001 \
+        --bestfit-p0-file ${OUT_DIR}/fs_${j}.InferDM.bestfits
+date

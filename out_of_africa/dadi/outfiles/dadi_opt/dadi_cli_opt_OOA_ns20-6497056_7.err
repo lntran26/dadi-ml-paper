@@ -1,0 +1,5 @@
+WARNING:Inference:Model is < 0 where data is not masked.
+WARNING:Inference:Number of affected entries is 2. Sum of data in those entries is 4:
+WARNING:Inference:Model is < 0 where data is not masked.
+WARNING:Inference:Number of affected entries is 1. Sum of data in those entries is 4:
+Feb 14 16:03:15.620463 66333 slurmstepd   0x2b0e9a278700: error: *** JOB 6497064 ON r1u03n2 CANCELLED AT 2023-02-14T16:03:15 ***

@@ -1,0 +1,12 @@
+Sun Feb 12 14:12:45 MST 2023
+Sequence length: 1.0e+08; Recombination rate: 1.0e-08
+msprime execution time: 2451.85s
+
+Sequence length: 1.0e+08; Recombination rate: 1.0e-09
+msprime execution time: 55.54s
+
+Sequence length: 1.0e+08; Recombination rate: 1.0e-10
+msprime execution time: 32.04s
+
+Sun Feb 12 14:55:08 MST 2023
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=6497298 by 8am on 2023/02/13.

@@ -1,0 +1,17 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gcc"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gcc"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+WARNING:Inference:Model is nan in some entries where data is not masked.
+WARNING:Inference:Number of affected entries is 439. Sum of data in those entries is 4202:
+WARNING:Inference:Model is nan in some entries where data is not masked.
+WARNING:Inference:Number of affected entries is 439. Sum of data in those entries is 4202:
+Feb 24 19:36:36.86240  13387 slurmstepd   0x2ab0e9886700: error: *** JOB 6554107 ON r4u08n2 CANCELLED AT 2023-02-24T19:36:36 DUE TO TIME LIMIT ***

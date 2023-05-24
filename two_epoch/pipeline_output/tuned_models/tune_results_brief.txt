@@ -1,0 +1,237 @@
+****************MLPR for param 1:*****************
+
+Band 1: Fitting [300, 100, 34, 12, 4, 2] candidates for [1, 3, 9, 27, 81, 243] iterations
+Model with rank: 1
+Mean validation score: 0.842 (std: 0.018)
+Parameters: {'activation': 'relu', 'alpha': 1.1357914897653664e-05, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.03580343794067727, 'solver': 'adam', 'max_iter': 27}
+
+Model with rank: 2
+Mean validation score: 0.832 (std: 0.037)
+Parameters: {'activation': 'relu', 'alpha': 0.009952004714645015, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.05093992778539546, 'solver': 'adam', 'max_iter': 27}
+
+Model with rank: 3
+Mean validation score: 0.831 (std: 0.049)
+Parameters: {'activation': 'relu', 'alpha': 1.1357914897653664e-05, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.03580343794067727, 'solver': 'adam', 'max_iter': 243}
+
+
+Band 2: Fitting [100, 34, 12, 4, 2] candidates for [3, 9, 27, 81, 243] iterations
+Model with rank: 1
+Mean validation score: 0.842 (std: 0.039)
+Parameters: {'activation': 'relu', 'alpha': 0.014261205215034873, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.010553170095159426, 'solver': 'adam', 'max_iter': 243}
+
+Model with rank: 2
+Mean validation score: 0.842 (std: 0.036)
+Parameters: {'activation': 'relu', 'alpha': 0.014261205215034873, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.010553170095159426, 'solver': 'adam', 'max_iter': 81}
+
+Model with rank: 3
+Mean validation score: 0.827 (std: 0.006)
+Parameters: {'activation': 'relu', 'alpha': 0.014261205215034873, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.010553170095159426, 'solver': 'adam', 'max_iter': 27}
+
+
+Band 3: Fitting [27, 9, 3, 1] candidates for [11, 33, 99, 297] iterations
+Model with rank: 1
+Mean validation score: 0.839 (std: 0.006)
+Parameters: {'activation': 'relu', 'alpha': 0.00019107032989973993, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.0004715925469339854, 'solver': 'lbfgs', 'max_iter': 99}
+
+Model with rank: 2
+Mean validation score: 0.786 (std: 0.032)
+Parameters: {'activation': 'relu', 'alpha': 0.00021010543069650416, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.012132345727786981, 'solver': 'adam', 'max_iter': 11}
+
+Model with rank: 3
+Mean validation score: 0.786 (std: 0.036)
+Parameters: {'activation': 'relu', 'alpha': 0.00019107032989973993, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.0004715925469339854, 'solver': 'lbfgs', 'max_iter': 33}
+
+
+Band 4: Fitting [9, 3, 1] candidates for [33, 99, 297] iterations
+Model with rank: 1
+Mean validation score: 0.868 (std: 0.022)
+Parameters: {'activation': 'relu', 'alpha': 0.0008664082339293449, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.011477025201724667, 'solver': 'lbfgs', 'max_iter': 297}
+
+Model with rank: 2
+Mean validation score: 0.815 (std: 0.048)
+Parameters: {'activation': 'relu', 'alpha': 0.0008664082339293449, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.011477025201724667, 'solver': 'lbfgs', 'max_iter': 99}
+
+Model with rank: 3
+Mean validation score: 0.814 (std: 0.026)
+Parameters: {'activation': 'relu', 'alpha': 0.00044341251857972817, 'hidden_layer_sizes': (10,), 'learning_rate_init': 8.213758347250987e-05, 'solver': 'lbfgs', 'max_iter': 99}
+
+
+Band 5: Fitting [3, 1] candidates for [100, 300] iterations
+Model with rank: 1
+Mean validation score: 0.808 (std: 0.040)
+Parameters: {'activation': 'relu', 'alpha': 0.0077937106865564095, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.000539827775097237, 'solver': 'lbfgs', 'max_iter': 300}
+
+Model with rank: 2
+Mean validation score: 0.797 (std: 0.041)
+Parameters: {'activation': 'relu', 'alpha': 0.0077937106865564095, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.000539827775097237, 'solver': 'lbfgs', 'max_iter': 100}
+
+Model with rank: 3
+Mean validation score: 0.777 (std: 0.037)
+Parameters: {'activation': 'relu', 'alpha': 0.0591219463826435, 'hidden_layer_sizes': (10,), 'learning_rate_init': 5.522821838499059e-05, 'solver': 'lbfgs', 'max_iter': 100}
+
+
+Band 6: Fitting [1] candidates for [300] iterations
+Model with rank: 1
+Mean validation score: 0.849 (std: 0.032)
+Parameters: {'activation': 'relu', 'alpha': 0.00016614368954462837, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.006434843884622658, 'solver': 'adam', 'max_iter': 300}
+
+****************MLPR for param 2:*****************
+
+Band 1: Fitting [300, 100, 34, 12, 4, 2] candidates for [1, 3, 9, 27, 81, 243] iterations
+Model with rank: 1
+Mean validation score: 0.426 (std: 0.115)
+Parameters: {'activation': 'relu', 'alpha': 0.0008268969876426003, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.026198470584597504, 'solver': 'adam', 'max_iter': 243}
+
+Model with rank: 2
+Mean validation score: 0.412 (std: 0.174)
+Parameters: {'activation': 'relu', 'alpha': 1.1357914897653664e-05, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.03580343794067727, 'solver': 'adam', 'max_iter': 27}
+
+Model with rank: 3
+Mean validation score: 0.399 (std: 0.101)
+Parameters: {'activation': 'relu', 'alpha': 0.001845095079791647, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.09234691947589507, 'solver': 'adam', 'max_iter': 27}
+
+
+Band 2: Fitting [100, 34, 12, 4, 2] candidates for [3, 9, 27, 81, 243] iterations
+Model with rank: 1
+Mean validation score: 0.443 (std: 0.124)
+Parameters: {'activation': 'relu', 'alpha': 0.0013272292642048712, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.0570693903677722, 'solver': 'adam', 'max_iter': 243}
+
+Model with rank: 2
+Mean validation score: 0.440 (std: 0.224)
+Parameters: {'activation': 'relu', 'alpha': 0.0012713110363378813, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.04179874814439062, 'solver': 'adam', 'max_iter': 81}
+
+Model with rank: 3
+Mean validation score: 0.363 (std: 0.153)
+Parameters: {'activation': 'relu', 'alpha': 0.010826824143369764, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.06228308242406983, 'solver': 'adam', 'max_iter': 27}
+
+
+Band 3: Fitting [27, 9, 3, 1] candidates for [11, 33, 99, 297] iterations
+Model with rank: 1
+Mean validation score: 0.392 (std: 0.170)
+Parameters: {'activation': 'relu', 'alpha': 0.00021010543069650416, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.012132345727786981, 'solver': 'adam', 'max_iter': 33}
+
+Model with rank: 2
+Mean validation score: 0.372 (std: 0.146)
+Parameters: {'activation': 'relu', 'alpha': 0.00036467545218673555, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.01794786346733166, 'solver': 'adam', 'max_iter': 99}
+
+Model with rank: 3
+Mean validation score: 0.325 (std: 0.141)
+Parameters: {'activation': 'relu', 'alpha': 0.00036467545218673555, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.01794786346733166, 'solver': 'adam', 'max_iter': 297}
+
+
+Band 4: Fitting [9, 3, 1] candidates for [33, 99, 297] iterations
+Model with rank: 1
+Mean validation score: 0.420 (std: 0.123)
+Parameters: {'activation': 'relu', 'alpha': 1.663371252309617e-05, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.050871774355184335, 'solver': 'lbfgs', 'max_iter': 99}
+
+Model with rank: 2
+Mean validation score: 0.388 (std: 0.128)
+Parameters: {'activation': 'relu', 'alpha': 0.00044341251857972817, 'hidden_layer_sizes': (10,), 'learning_rate_init': 8.213758347250987e-05, 'solver': 'lbfgs', 'max_iter': 99}
+
+Model with rank: 3
+Mean validation score: 0.328 (std: 0.158)
+Parameters: {'activation': 'relu', 'alpha': 0.07151145478511566, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 1.7555451330401207e-05, 'solver': 'lbfgs', 'max_iter': 99}
+
+
+Band 5: Fitting [3, 1] candidates for [100, 300] iterations
+Model with rank: 1
+Mean validation score: 0.419 (std: 0.119)
+Parameters: {'activation': 'relu', 'alpha': 0.0591219463826435, 'hidden_layer_sizes': (10,), 'learning_rate_init': 5.522821838499059e-05, 'solver': 'lbfgs', 'max_iter': 300}
+
+Model with rank: 2
+Mean validation score: 0.332 (std: 0.130)
+Parameters: {'activation': 'relu', 'alpha': 0.0591219463826435, 'hidden_layer_sizes': (10,), 'learning_rate_init': 5.522821838499059e-05, 'solver': 'lbfgs', 'max_iter': 100}
+
+Model with rank: 3
+Mean validation score: 0.317 (std: 0.158)
+Parameters: {'activation': 'relu', 'alpha': 0.000687424776703618, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.05870587800586139, 'solver': 'adam', 'max_iter': 100}
+
+
+Band 6: Fitting [1] candidates for [300] iterations
+Model with rank: 1
+Mean validation score: 0.414 (std: 0.189)
+Parameters: {'activation': 'relu', 'alpha': 0.00016614368954462837, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.006434843884622658, 'solver': 'adam', 'max_iter': 300}
+
+****************MLPR for param 3:*****************
+
+Band 1: Fitting [300, 100, 34, 12, 4, 2] candidates for [1, 3, 9, 27, 81, 243] iterations
+Model with rank: 1
+Mean validation score: 0.953 (std: 0.015)
+Parameters: {'activation': 'relu', 'alpha': 0.00013684777455953711, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.07631044884794354, 'solver': 'adam', 'max_iter': 27}
+
+Model with rank: 2
+Mean validation score: 0.951 (std: 0.014)
+Parameters: {'activation': 'relu', 'alpha': 0.0008268969876426003, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.026198470584597504, 'solver': 'adam', 'max_iter': 27}
+
+Model with rank: 3
+Mean validation score: 0.947 (std: 0.019)
+Parameters: {'activation': 'relu', 'alpha': 2.389820149548347e-05, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.06176212134830329, 'solver': 'adam', 'max_iter': 27}
+
+
+Band 2: Fitting [100, 34, 12, 4, 2] candidates for [3, 9, 27, 81, 243] iterations
+Model with rank: 1
+Mean validation score: 0.943 (std: 0.021)
+Parameters: {'activation': 'relu', 'alpha': 0.00249605181611492, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.0175922263189429, 'solver': 'adam', 'max_iter': 81}
+
+Model with rank: 2
+Mean validation score: 0.933 (std: 0.033)
+Parameters: {'activation': 'relu', 'alpha': 0.00019129679005061128, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.01294086353579263, 'solver': 'adam', 'max_iter': 27}
+
+Model with rank: 3
+Mean validation score: 0.931 (std: 0.024)
+Parameters: {'activation': 'relu', 'alpha': 0.010051969302835473, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.027468805671288093, 'solver': 'adam', 'max_iter': 81}
+
+
+Band 3: Fitting [27, 9, 3, 1] candidates for [11, 33, 99, 297] iterations
+Model with rank: 1
+Mean validation score: 0.951 (std: 0.026)
+Parameters: {'activation': 'relu', 'alpha': 0.00036467545218673555, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.01794786346733166, 'solver': 'adam', 'max_iter': 99}
+
+Model with rank: 2
+Mean validation score: 0.950 (std: 0.024)
+Parameters: {'activation': 'relu', 'alpha': 0.00036467545218673555, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.01794786346733166, 'solver': 'adam', 'max_iter': 33}
+
+Model with rank: 3
+Mean validation score: 0.930 (std: 0.019)
+Parameters: {'activation': 'relu', 'alpha': 0.00021010543069650416, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.012132345727786981, 'solver': 'adam', 'max_iter': 99}
+
+
+Band 4: Fitting [9, 3, 1] candidates for [33, 99, 297] iterations
+Model with rank: 1
+Mean validation score: 0.920 (std: 0.019)
+Parameters: {'activation': 'relu', 'alpha': 1.663371252309617e-05, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.050871774355184335, 'solver': 'lbfgs', 'max_iter': 33}
+
+Model with rank: 2
+Mean validation score: 0.901 (std: 0.043)
+Parameters: {'activation': 'relu', 'alpha': 0.00013053459496802978, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.09016244143380896, 'solver': 'lbfgs', 'max_iter': 99}
+
+Model with rank: 3
+Mean validation score: 0.884 (std: 0.025)
+Parameters: {'activation': 'relu', 'alpha': 0.00013053459496802978, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.09016244143380896, 'solver': 'lbfgs', 'max_iter': 297}
+
+
+Band 5: Fitting [3, 1] candidates for [100, 300] iterations
+Model with rank: 1
+Mean validation score: 0.913 (std: 0.034)
+Parameters: {'activation': 'relu', 'alpha': 0.0077937106865564095, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.000539827775097237, 'solver': 'lbfgs', 'max_iter': 300}
+
+Model with rank: 2
+Mean validation score: 0.888 (std: 0.036)
+Parameters: {'activation': 'relu', 'alpha': 0.0077937106865564095, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.000539827775097237, 'solver': 'lbfgs', 'max_iter': 100}
+
+Model with rank: 3
+Mean validation score: 0.750 (std: 0.376)
+Parameters: {'activation': 'relu', 'alpha': 0.0591219463826435, 'hidden_layer_sizes': (10,), 'learning_rate_init': 5.522821838499059e-05, 'solver': 'lbfgs', 'max_iter': 100}
+
+
+Band 6: Fitting [1] candidates for [300] iterations
+Model with rank: 1
+Mean validation score: 0.731 (std: 0.366)
+Parameters: {'activation': 'relu', 'alpha': 0.00016614368954462837, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.006434843884622658, 'solver': 'adam', 'max_iter': 300}
+
+CV score of best MLPR for param 1: 0.8684920353921433
+Spec of best MLPR for param 1: {'activation': 'relu', 'alpha': 0.0008664082339293449, 'hidden_layer_sizes': (10, 5), 'learning_rate_init': 0.011477025201724667, 'solver': 'lbfgs', 'max_iter': 297}
+CV score of best MLPR for param 2: 0.4429894371970892
+Spec of best MLPR for param 2: {'activation': 'relu', 'alpha': 0.0013272292642048712, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.0570693903677722, 'solver': 'adam', 'max_iter': 243}
+CV score of best MLPR for param 3: 0.9306554439369068
+Spec of best MLPR for param 3: {'activation': 'relu', 'alpha': 0.0008268969876426003, 'hidden_layer_sizes': (10,), 'learning_rate_init': 0.026198470584597504, 'solver': 'adam', 'max_iter': 243}

@@ -1,0 +1,57 @@
+Quality check for data/test_100_theta_100_ns200:
+Number of FS with at least one negative entry: 49
+Number of FS with at least one NaN entry: 0
+Number of FS with at least one pos inf entry: 0
+
+Note: Negative entries in FS reported above were automatically converted to its absolute value as part of the pipeline processing.
+Any FS with negative entries sum to more than 0.1% of the sum of all entries in FS before conversion will be reported below.
+To reduce the number of FS with negative entries in initial simulations try increasing the grids size.
+
+------------------------------------------------------------
+
+Details of FS with negative entries exceeding threshold before absolute value conversion:
+
+Total number of FS: 6
+
+FS 8:
+Params: nu1=79.438 nu2=34.627 T=1.706 m=3.595 misid=0.15 
+Negative entry counts: 17613
+Most negative entry value: -0.001
+Sum of all negative entries: -2.2252
+Sum of FS before normalization: 155.2428
+
+FS 12:
+Params: nu1=67.305 nu2=2.465 T=1.934 m=7.313 misid=0.085 
+Negative entry counts: 16917
+Most negative entry value: -0.0005
+Sum of all negative entries: -1.0252
+Sum of FS before normalization: 54.6729
+
+FS 17:
+Params: nu1=6.179 nu2=27.446 T=0.625 m=6.253 misid=0.246 
+Negative entry counts: 14911
+Most negative entry value: -0.0001
+Sum of all negative entries: -0.0918
+Sum of FS before normalization: 48.653
+
+FS 37:
+Params: nu1=15.333 nu2=65.916 T=1.275 m=6.846 misid=0.122 
+Negative entry counts: 17510
+Most negative entry value: -0.0009
+Sum of all negative entries: -2.0375
+Sum of FS before normalization: 101.157
+
+FS 60:
+Params: nu1=48.454 nu2=59.166 T=1.558 m=7.044 misid=0.173 
+Negative entry counts: 18443
+Most negative entry value: -0.0027
+Sum of all negative entries: -7.833
+Sum of FS before normalization: 155.9911
+
+FS 61:
+Params: nu1=85.088 nu2=0.018 T=0.745 m=8.977 misid=0.066 
+Negative entry counts: 3949
+Most negative entry value: -0.0114
+Sum of all negative entries: -0.1617
+Sum of FS before normalization: 13.6723
+

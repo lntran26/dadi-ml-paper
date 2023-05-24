@@ -1,0 +1,64 @@
+Quality check for data/train_5000_theta_100:
+Number of FS with at least one negative entry: 677
+Number of FS with at least one NaN entry: 0
+Number of FS with at least one pos inf entry: 0
+
+Note: Negative entries in FS reported above were automatically converted to its absolute value as part of the pipeline processing.
+Any FS with negative entries sum to more than 0.1% of the sum of all entries in FS before conversion will be reported below.
+To reduce the number of FS with negative entries in initial simulations try increasing the grids size.
+
+------------------------------------------------------------
+
+Details of FS with negative entries exceeding threshold before absolute value conversion:
+
+Total number of FS: 7
+
+FS 1148:
+Params: nu1=56.566 nu2=86.886 T=1.771 m=8.836 misid=0.061 
+Negative entry counts: 104
+Most negative entry value: -0.0053
+Sum of all negative entries: -0.1053
+Sum of FS before normalization: 39.4577
+
+FS 1379:
+Params: nu1=92.411 nu2=58.48 T=1.718 m=9.793 misid=0.238 
+Negative entry counts: 155
+Most negative entry value: -0.0651
+Sum of all negative entries: -1.1121
+Sum of FS before normalization: 38.8817
+
+FS 1431:
+Params: nu1=81.422 nu2=0.598 T=1.971 m=9.18 misid=0.181 
+Negative entry counts: 76
+Most negative entry value: -0.0057
+Sum of all negative entries: -0.0731
+Sum of FS before normalization: 10.2794
+
+FS 2303:
+Params: nu1=0.146 nu2=77.848 T=1.781 m=9.652 misid=0.031 
+Negative entry counts: 26
+Most negative entry value: -0.0011
+Sum of all negative entries: -0.008
+Sum of FS before normalization: 4.4861
+
+FS 2839:
+Params: nu1=89.599 nu2=1.44 T=1.989 m=8.973 misid=0.222 
+Negative entry counts: 112
+Most negative entry value: -0.018
+Sum of all negative entries: -0.3251
+Sum of FS before normalization: 16.0537
+
+FS 3663:
+Params: nu1=2.56 nu2=93.927 T=1.898 m=9.804 misid=0.0 
+Negative entry counts: 115
+Most negative entry value: -0.0135
+Sum of all negative entries: -0.1998
+Sum of FS before normalization: 20.3868
+
+FS 3774:
+Params: nu1=4.497 nu2=85.682 T=1.57 m=9.883 misid=0.046 
+Negative entry counts: 114
+Most negative entry value: -0.0099
+Sum of all negative entries: -0.1654
+Sum of FS before normalization: 22.8507
+

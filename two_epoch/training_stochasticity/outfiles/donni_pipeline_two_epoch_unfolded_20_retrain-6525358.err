@@ -1,0 +1,38 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gcc"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gcc"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.htmllbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.htmlTraceback (most recent call last):
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/bin/donni", line 8, in <module>
+    sys.exit(main())
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/lib/python3.9/site-packages/donni/__main__.py", line 543, in main
+    args.func(args)
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/lib/python3.9/site-packages/donni/__main__.py", line 199, in run_train
+    pickle.dump(mlpr, open(
+FileNotFoundError: [Errno 2] No such file or directory: 'tuned_models_/param_01_predictor'
+Traceback (most recent call last):
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/bin/donni", line 8, in <module>
+    sys.exit(main())
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/lib/python3.9/site-packages/donni/__main__.py", line 543, in main
+    args.func(args)
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/lib/python3.9/site-packages/donni/__main__.py", line 284, in run_plot
+    mlpr_list, mapie, logs, param_names = _load_trained_mlpr(args)
+  File "/groups/rgutenk/lnt/software/anaconda3/envs/donni/lib/python3.9/site-packages/donni/__main__.py", line 212, in _load_trained_mlpr
+    for filename in sorted(os.listdir(args.mlpr_dir)):
+FileNotFoundError: [Errno 2] No such file or directory: 'tuned_models_'

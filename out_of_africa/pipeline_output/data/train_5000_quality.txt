@@ -1,0 +1,22 @@
+Quality check for data/train_5000:
+Number of FS with at least one negative entry: 2713
+Number of FS with at least one NaN entry: 0
+Number of FS with at least one pos inf entry: 0
+
+Note: Negative entries in FS reported above were automatically converted to its absolute value as part of the pipeline processing.
+Any FS with negative entries sum to more than 0.1% of the sum of all entries in FS before conversion will be reported below.
+To reduce the number of FS with negative entries in initial simulations try increasing the grids size.
+
+------------------------------------------------------------
+
+Details of FS with negative entries exceeding threshold before absolute value conversion:
+
+Total number of FS: 1
+
+FS 1431:
+Params: nuAf=19.082 nuB=0.01 nuEu0=1.199 nuEu=96.824 nuAs0=58.787 nuAs=4.671 mAfB=9.936 mAfEu=5.84 mAfAs=9.324 mEuAs=1.707 TAf=0.666 TB=0.133 TEuAs=1.05 misid=0.229 
+Negative entry counts: 2584
+Most negative entry value: -0.0009
+Sum of all negative entries: -0.0796
+Sum of FS before normalization: 28.3585
+

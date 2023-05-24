@@ -1,0 +1,5 @@
+hidden_layer_sizes: [(10,), (10, 5)]
+activation: ['relu']
+solver: ['lbfgs', 'adam']
+alpha: loguniform, (1e-05, 0.1)
+learning_rate_init: loguniform, (1e-05, 0.1)

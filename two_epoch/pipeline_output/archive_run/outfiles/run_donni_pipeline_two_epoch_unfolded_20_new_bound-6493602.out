@@ -1,0 +1,22 @@
+Sat Feb 11 16:12:51 MST 2023
+Start generating training data
+Sat Feb 11 16:12:53 MST 2023
+Sat Feb 11 16:13:23 MST 2023
+Finish generating training data
+
+Start tuning
+Sat Feb 11 16:13:23 MST 2023
+Sat Feb 11 16:14:29 MST 2023
+Finish tuning
+
+Start generating test data
+
+Sat Feb 11 16:14:29 MST 2023
+Sat Feb 11 16:14:37 MST 2023
+Finish generating test data
+
+Plotting
+
+Finish run
+Sat Feb 11 16:14:42 MST 2023
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=6493602 by 8am on 2023/02/12.

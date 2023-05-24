@@ -1,0 +1,15 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"gcc"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "gcc"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+WARNING:Inference:Model is < 0 where data is not masked.
+WARNING:Inference:Number of affected entries is 793. Sum of data in those entries is 9421:
+Feb 15 02:32:12.660566 35552 slurmstepd   0x2baaabcb0700: error: *** JOB 6512351 ON r6u07n2 CANCELLED AT 2023-02-15T02:32:12 DUE TO TIME LIMIT ***
